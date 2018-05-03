@@ -2,7 +2,7 @@
 
 ## The Plan
 
-This pairing lesson will pivot team member responsibilities in the middle its tasks. Whomever starts as the driver will switch and become the navigator where the lesson specifies. And vice versa.
+This pairing lesson will pivot team member responsibilities in the middle the lesson's tasks. Whomever starts as the driver will switch and become the navigator where the lesson specifies. And vice versa.
 
 Before you start, acquire your designated project repo from the course instructor.
 
@@ -19,7 +19,7 @@ Before you start, acquire your designated project repo from the course instructo
 
 Today you may be working on a project that you own, a project that you've copied before, or new project. Before you begin, you must know exactly what you have stored in your `pairing_projects` directory to know what `git` commands to use.
 
-If the repo you are working from today is new, then you can follow the same forking and cloning procedures from yesterday. If it one you have cloned before, or if you are the original owner, the next sections apply to you.
+If the repo you are working from today is new, then you can follow the same forking and cloning procedures from yesterday. If it's one you have cloned before, or if you are the original owner, the next sections apply to you.
 
 ## Changing branches
 
@@ -83,13 +83,13 @@ upstream  git://github.com/main_project_owner/awesome_project.git (fetch)
 upstream  git://github.com/main_project_owner/awesome_project.git (push)
 ```
 
-Now that we have added the upstream to the main project we need update our fork with the most recent changes. To do this run this command:
+Next we need update our fork with the most recent changes. To do this, pull the `master` branch from the upstream remote:
 
 ```bash
 git pull upstream master
 ```
 
-At this point our fork will be up to date.
+Now our fork will be up to date.
 
 ## Instructions
 
