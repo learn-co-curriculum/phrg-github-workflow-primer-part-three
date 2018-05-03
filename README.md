@@ -84,3 +84,32 @@ upstream  git://github.com/main_project_owner/awesome_project.git (push)
 ```
 
 ## Instructions
+
+Using the instructions above, or the instructions from a previous lesson, update the project you are working on today to its most recent version. When you are done, verify that you are on the `master` branch with `git branch`.
+
+* Create a new branch called `favorite_websites`
+* In the project's `index.html`, add a paragraph element with a class of "favorite-website" and the text "Favorite website: "
+* Acquire every class member's favorite website in Connect
+* Inside each of the paragraph elements, after the text, add an anchor tag that references each member's favorite website
+* Be sure to add the name of the website between the anchor tags so you can see it in the browser
+
+If you haven't yet, open up your index.html in the browser and refresh between each change. Verify each link opens correctly.
+
+* When one clicks on a link, make a change so that it opens in a new window (hint: What should the link `target`?)
+* Add a `title` attribute to each link with a description of the website
+* Add your changes with `git`
+* Commit the change with a message of "Add favorite websites"
+
+Your page should now look like this:
+
+![Nitro is my Favorite](img/favorite-nitro.png?raw=true "Nitro is my Favorite")
+
+Before we push our commit, let's make one more change. Since we have made our page more accessible by adding a `title` attribute to the links, let's do something similar to our images.
+
+* Add an `alt` attribute to each img tag that contains the name of the person in the image
+* Git add the change
+* Commit the change with a message of "Add alternate text to developer images"
+* Push your changes
+* Open a Pull Request against the main project (What should we add to the PR description to make it easier to review?)
+
+## Switch Drivers
