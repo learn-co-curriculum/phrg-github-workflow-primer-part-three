@@ -83,12 +83,20 @@ upstream  git://github.com/main_project_owner/awesome_project.git (fetch)
 upstream  git://github.com/main_project_owner/awesome_project.git (push)
 ```
 
+Now that we have added the upstream to the main project we need update our fork with the most recent changes. To do this run this command:
+
+```bash
+git pull upstream master
+```
+
+At this point our fork will be up to date.
+
 ## Instructions
 
 Using the instructions above, or the instructions from a previous lesson, update the project you are working on today to its most recent version. When you are done, verify that you are on the `master` branch with `git branch`.
 
 * Create a new branch called `favorite_websites`
-* In the project's `index.html`, add a paragraph element with a class of "favorite-website" and the text "Favorite website: "
+* In the project's `index.html`, add a paragraph element below each students image with a class of "favorite-website" and the text "Favorite website:"
 * Acquire every class member's favorite website in Connect
 * Inside each of the paragraph elements, after the text, add an anchor tag that references each member's favorite website
 * Be sure to add the name of the website between the anchor tags so you can see it in the browser
