@@ -60,4 +60,27 @@ If you are the Github owner of the project you have today, then you are not on a
 
 ### From a fork
 
-If you have a fork of project already, you need to update it.
+If you have a fork of the project already, you need to update it.
+
+Do you remember what we originally copied with `git clone` when we pulled down the files locally? We made of a copy of your account's fork of the main project. Since then, your fork has stayed the same. Only the main project has been merging pull requests. So what is the right path to acquire the most up to date version of the main project?
+
+We have to add a `git remote`, which is conventionally named `upstream`, to the main project. This way our computer can see if there is anything to update (right now, it is only linked to our account's fork). To achieve this, we need to navigate to the main project's page and grab its ssh_remote_url.
+
+Once we verify that we are on our local `master` branch, run this command:
+
+```bash
+git remote add upstream <ssh_remote_url>
+```
+
+You can verify this works correctly by running `git remote -v`. Your output should look like this:
+
+```bash
+garettarrowood: ~/Development/awesome_project (ruby-2.5.1) master
+[Thu May 03 07:08:00]$ git remote -v
+origin  git@github.com:garettarrowood/awesome_project.git (fetch)
+origin  git@github.com:garettarrowood/awesome_project.git (push)
+upstream  git://github.com/main_project_owner/awesome_project.git (fetch)
+upstream  git://github.com/main_project_owner/awesome_project.git (push)
+```
+
+## Instructions
