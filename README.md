@@ -110,6 +110,38 @@ Before we push our commit, let's make one more change. Since we have made our pa
 * Git add the change
 * Commit the change with a message of "Add alternate text to developer images"
 * Push your changes
-* Open a Pull Request against the main project (What should we add to the PR description to make it easier to review?)
+* Open a Pull Request against the main project with a screen shot of your index page
 
 ## Switch Drivers
+
+Using the instructions above, or the instructions from a previous lesson, update the project you are working on today to its most recent version, including the last PR. When you are done, verify that you are on the `master` branch with `git branch`.
+
+* Create a new branch called `add_stylesheet`
+* Create a directory called `css` on root
+* Create a file called `style.css` inside the new directory
+* In the new file, add a style that applies the font-style of *italic* to all h1 elements
+* In the index.html, `<link>` this "stylesheet" inside the `<head>` element. You will know when the syntax is correct when the title of your index.html shows up italicized, like so:
+
+![Italic Header](img/italic-header.png?raw=true "Italic Header")
+
+* Add a `text-align` attribute to the h1 style, with a value of `center`
+* Make all elements with the class of `.favorite-website` the `color: LightSeaGreen`
+* Finally, open up a style for all `div`s with the class of `.developer` and copy these styles into it:
+
+```css
+div.developer {
+  width: 200px;
+  display: inline-block;
+  border: 2px solid grey;
+  border-radius: 5px;
+  padding: 6px;
+  text-align: center;
+}
+```
+
+Your final product should look something like this:
+
+![Developers with Style](img/styled-students.png?raw=true "Developers with Style")
+
+* Add, commit and push your changes
+* Open a Pull Request against the main project with a screen shot of your index page
