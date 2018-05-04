@@ -2,7 +2,7 @@
 
 ## The Plan
 
-This pairing lesson will pivot team member responsibilities in the middle the lesson's tasks. Whomever starts as the driver will switch and become the navigator where the lesson specifies. And vice versa.
+In the middle of this lesson's tasks, your responsibilities will pivot. Whomever starts as the driver will switch and become the navigator where the lesson specifies. And vice versa.
 
 Before you start, acquire your designated project repo from the course instructor.
 
