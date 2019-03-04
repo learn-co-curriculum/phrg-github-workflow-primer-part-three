@@ -110,7 +110,7 @@ If you haven't yet, open up your index.html in the browser and refresh between e
 
 Your page should now look like this:
 
-![Nitro is my Favorite](https://raw.githubusercontent.com/powerhome/phrg-github-workflow-primer-part-three/master/favorite-nitro.png?raw=true "Nitro is my Favorite")
+![Nitro is my Favorite](https://raw.githubusercontent.com/powerhome/phrg-github-workflow-primer-part-three/master/favorite-links.png?raw=true "Nitro is my Favorite")
 
 Before we push our commit, let's make one more change. Since we have made our page more accessible by adding a `title` attribute to the links, let's do something similar to our images.
 
@@ -130,7 +130,7 @@ Using the instructions above, or the instructions from a previous lesson, update
 * In the new file, add a style that applies the font-style of *italic* to all h1 elements
 * In the index.html, `<link>` this "stylesheet" inside the `<head>` element. You will know when the syntax is correct when the title of your index.html shows up italicized, like so:
 
-![Italic Header](https://raw.githubusercontent.com/powerhome/phrg-github-workflow-primer-part-three/master/italic-header.png?raw=true "Italic Header")
+![Italic Header](https://raw.githubusercontent.com/powerhome/phrg-github-workflow-primer-part-three/master/italic-title.png?raw=true "Italic Header")
 
 * Add a `text-align` attribute to the h1 style, with a value of `center`
 * Make all elements with the class of `.favorite-website` the `color: LightSeaGreen`
@@ -149,7 +149,7 @@ div.developer {
 
 Your final product should look something like this:
 
-![Developers with Style](https://raw.githubusercontent.com/powerhome/phrg-github-workflow-primer-part-three/master/styled-students.png?raw=true "Developers with Style")
+![Developers with Style](https://raw.githubusercontent.com/powerhome/phrg-github-workflow-primer-part-three/master/styled-code-students.png?raw=true "Developers with Style")
 
 * Add, commit and push your changes
 * Open a Pull Request against the main project with a screen shot of your index page
